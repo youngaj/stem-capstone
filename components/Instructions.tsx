@@ -1,5 +1,6 @@
 import { CModal, CModalBody } from "@coreui/react";
 import { Instruction } from "power54/data/types";
+import ReactPlayer from "react-player/youtube";
 
 interface InstructionProps {
   instruction: Instruction;
@@ -21,6 +22,15 @@ export const InstructionModal = (props: InstructionProps) => {
       >
         <CModalBody>
           <h3>{instruction.title}</h3>
+          <div>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=w9G1nz4UlyU"
+              width="100%"
+              playing={true}
+              controls={true}
+            />
+            ;
+          </div>
           <p>{instruction.description}</p>
         </CModalBody>
       </CModal>

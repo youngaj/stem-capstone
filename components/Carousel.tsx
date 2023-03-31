@@ -2,7 +2,6 @@ import * as React from "react";
 import { CButton, CCarousel, CCarouselItem } from "@coreui/react";
 import { CarouselData } from "power54/data/types";
 import styles from "../styles/Carousel.module.css";
-
 const carouselData: CarouselData[] = [
   {
     title: "Power54",
