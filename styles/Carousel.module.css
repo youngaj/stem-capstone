@@ -1,0 +1,12 @@
+.carouselLayout {
+    padding: 2rem;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem
+}
+
+.buttonArea {
+    text-align: right;
+    margin-top: 1rem;
+}

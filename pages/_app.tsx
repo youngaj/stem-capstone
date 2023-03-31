@@ -1,6 +1,7 @@
-import 'power54/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "power54/styles/globals.css";
+import type { AppProps } from "next/app";
+import "@coreui/coreui/dist/css/coreui.min.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
